@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968568672348",
+    "project_id": "mundo-nerd-9f2d3",
+    "storage_bucket": "mundo-nerd-9f2d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968568672348:android:f536b8f6e52e7df68c1699",
+        "android_client_info": {
+          "package_name": "com.br.mundonerd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968568672348-675kmr97i6lr740b9gm6gpq1fe3oe9s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.br.mundonerd",
+            "certificate_hash": "e0658d8adf6da4eb251147b6d6d479c1c4135bbe"
+          }
+        },
+        {
+          "client_id": "968568672348-4ej41h0sjf5rcns3a65v19p7qn7bql7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeF5Ha_ilXL_rMblraNYhOyMz7r48aWL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968568672348-4ej41h0sjf5rcns3a65v19p7qn7bql7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/azul"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mundonerd"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR USUÁRIO"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:textAlignment="center"
+        android:textColorHint="@color/azul"
+        android:textColor="@color/azul"
+        android:background="@drawable/box_branco"
+        android:padding="16dp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textAlignment="center"
+        android:textColorHint="@color/azul"
+        android:textColor="@color/azul"
+        android:background="@drawable/box_branco"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="-2dp"/>
+    <EditText
+        android:id="@+id/etSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:textAlignment="center"
+        android:textColorHint="@color/azul"
+        android:textColor="@color/azul"
+        android:background="@drawable/box_branco"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="-2dp"/>
+    <EditText
+        android:id="@+id/etIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:textAlignment="center"
+        android:textColorHint="@color/azul"
+        android:textColor="@color/azul"
+        android:background="@drawable/box_branco"
+        android:padding="16dp"
+        android:inputType="number"
+        android:layout_marginTop="-2dp"/>
+    <RadioGroup
+        android:id="@+id/rgSexo"
+        android:layout_marginTop="-2dp"
+        android:gravity="center"
+
+        android:background="@drawable/box_branco"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbMasc"
+            android:textSize="20sp"
+            android:text="Masculino"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbFem"
+            android:layout_marginLeft="12dp"
+            android:textSize="20sp"
+            android:text="Feminino"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/azul_claro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Já tenho conta!"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:onClick="tenhoConta"
+        android:drawableLeft="@drawable/ic_voltar"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/azul">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mundonerd"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textAlignment="center"
+        android:textColorHint="@color/azul"
+        android:textColor="@color/azul"
+        android:background="@drawable/box_branco"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/etSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:textAlignment="center"
+        android:textColorHint="@color/azul"
+        android:textColor="@color/azul"
+        android:background="@drawable/box_branco"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="-2dp"/>
+
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/azul_claro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Não possui cadastro? Cadastre-se"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:onClick="cadastrar"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
